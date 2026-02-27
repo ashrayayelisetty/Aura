@@ -52,3 +52,33 @@ htmlcov/
 # Logs
 *.log
 logs/
+
+# Frontend build
+frontend/dist/
+frontend/.vite/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython
+*.c
+*.cpp
+cython_debug/
